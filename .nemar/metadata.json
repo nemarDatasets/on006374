@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006374",
+  "source": "openneuro",
+  "source_id": "ds006374",
+  "title": "Expectation effects on repetition suppression in nociception",
+  "authors": {
+    "Lisa-Marie Pohle": {},
+    "Moritz Nickel": {},
+    "Birgit Nierula": {},
+    "Markus Ploner": {},
+    "Ulrike Horn": {},
+    "Falk Eippert": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006374.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
