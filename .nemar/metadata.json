@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on006374",
-  "source": "openneuro",
-  "source_id": "ds006374",
+  "pipeline_stage": "validated",
   "title": "Expectation effects on repetition suppression in nociception",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Lisa-Marie Pohle": {},
     "Moritz Nickel": {},
@@ -12,23 +12,78 @@
     "Ulrike Horn": {},
     "Falk Eippert": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006374.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006374",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006374",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".fif",
+    ".gz",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset investigates how expectation modulates repetition suppression in nociceptive processing. It contains electrophysiological recordings examining the neural mechanisms underlying pain perception and the influence of cognitive expectations on pain-related neural responses.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Nociception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+    },
+    {
+      "term": "Pain Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
+    },
+    {
+      "term": "expectation effects"
+    },
+    {
+      "term": "repetition suppression"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "383165c659d668a59620f86195ed67bdc8738174baf0e82c1c2c5ee0e6477016"
 }
