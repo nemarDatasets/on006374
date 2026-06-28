@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Expectation effects on repetition suppression in nociception",
-  "description": "This dataset investigates how expectation modulates repetition suppression effects in nociceptive processing. It contains raw neuroimaging data examining the neural mechanisms underlying pain perception and the influence of cognitive expectations on sensory adaptation, providing insights into the interaction between top-down expectations and bottom-up nociceptive signals.",
+  "description": "This dataset investigates how expectation modulates repetition suppression in nociceptive processing. It contains raw neuroimaging data examining the neural mechanisms underlying pain perception and the influence of cognitive expectations on pain-related neural responses.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,9 +30,6 @@
     },
     {
       "term": "neuroimaging"
-    },
-    {
-      "term": "cognitive modulation"
     }
   ],
   "related_identifiers": [
