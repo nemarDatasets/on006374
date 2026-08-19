@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Expectation effects on repetition suppression in nociception",
-  "description": "This dataset investigates how expectation modulates repetition suppression in nociceptive processing. It contains raw neuroimaging data examining the neural mechanisms underlying pain perception and the influence of cognitive expectations on pain-related neural responses.",
+  "description": "This dataset contains electroencephalography (EEG) recordings from a study investigating how expectation modulates repetition suppression of neural responses to nociceptive (pain-related) stimuli. It provides raw EEG data organized in BIDS format, intended to support analyses of expectation effects on cortical processing of repeated nociceptive stimulation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,21 +15,26 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "Nociception",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
     },
     {
-      "term": "pain perception"
-    },
-    {
-      "term": "expectation effects"
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     },
     {
       "term": "repetition suppression"
     },
     {
-      "term": "neuroimaging"
+      "term": "expectation"
+    },
+    {
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -46,12 +51,12 @@
     {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds006374.v1.0.0",
