@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Expectation effects on repetition suppression in nociception",
-  "description": "This dataset contains electroencephalography (EEG) recordings from a study investigating how expectation modulates repetition suppression of neural responses to nociceptive (pain-related) stimuli. It provides raw EEG data organized in BIDS format, intended to support analyses of expectation effects on cortical processing of repeated nociceptive stimulation.",
+  "description": "This dataset contains EEG recordings collected to study how expectation affects repetition suppression in nociception. It supports investigation of how the brain's responses to repeated painful stimuli are modulated by predictions about those stimuli. The data are organized in BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,14 +18,7 @@
       "term": "EEG"
     },
     {
-      "term": "Nociception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
-    },
-    {
-      "term": "Pain",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
+      "term": "nociception"
     },
     {
       "term": "repetition suppression"
@@ -34,7 +27,9 @@
       "term": "expectation"
     },
     {
-      "term": "BIDS"
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     }
   ],
   "related_identifiers": [
@@ -71,7 +66,7 @@
     "eeg"
   ],
   "sizes": [
-    "45.9 GB (2069 files)"
+    "42.74 GB (2069 files)"
   ],
   "formats": [
     ".csv",
